@@ -238,7 +238,15 @@
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
+        <div class="social-links">        // ...existing code...
+          "homepage": "https://j4sm1netsui.github.io/simplefolio",
+          "scripts": {
+            "start": "parcel",
+            "build": "parcel build",
+            "predeploy": "yarn build",
+            "deploy": "gh-pages -d dist"
+          },
+        // ...existing code...        $BROWSER https://j4sm1netsui.github.io/simplefolio
           <a rel="noreferrer" href="#!" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
